@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+    crossorigin="anonymous"/>
+</head>
+<body class="body-section">
+    <div class="container-fluid header-section">
+        <div class="row header-section-row1">
+            <i>Charles Standard</i>
+        </div>
+        <div class="row header-section-row2">
+            <div class="col-sm-4">
+              <img src="image/flyer3.crop-removebg-preview.png" alt="">
+            </div>
+            <div class="col-sm-4">
+                <h1>Weather App</h1>
+            </div>
+            <div class="col-sm-4">
+                <img src="image/cloudy.png" alt="">
+            </div>
+        </div>
+         
+    <br><br>
+    </div>
+<div class="container-fluid body-section-det">
+    <div class="weather-app">
+         
+        <input type="text" id="city" placeholder="Enter city name">
+        &nbsp; &nbsp; &nbsp;
+        <button id="get-weather" class="btn btn-primary">Search for Weather</button>
+        <br><br>
+        <div class="weather-data">
+            <div class="row">
+                <div class="col-sm-6">
+            <h5>Weather-Description: </h5>
+            <p id="weather-description"></p>
+            <h5>Temperature: </h5>
+            <p id="temperature"></p>
+            <h5>Humidity: </h5>
+            <p id="humidity"></p>
+            <h5>Wind-Speed: </h5>
+            <p id="wind-speed"></p>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Day :</h5>
+                    <p id="day"></p>
+                    <h5>Date:</h5>
+                    <p id="date"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row header-section-row3">
+            
+    </div>
+</div>
+
+    <script src="myScript.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
